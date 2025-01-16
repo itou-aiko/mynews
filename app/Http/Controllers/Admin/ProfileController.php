@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 class ProfileController extends Controller
 {
     //課題5:【応用】 Admin/ProfileControllerに、以下のadd, create, edit, update それぞれのActionを追加してみましょう
+    //テスト
     public function add()
     {
         return view('admin.profile.create');

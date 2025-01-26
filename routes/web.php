@@ -24,6 +24,7 @@ Route::controller(NewsController::class)->prefix('admin')->group(function() {
 
 // 課題3:http://◯◯◯◯.jp/XXX というアクセスが来たときに、 
 // AAAControllerのbbbというAction に渡すRoutingの設定」を書いてみてください
+//(以下回答)
 
 // Route::controller(AAAController::class)->group(function() {
 //     Route::get('XXX', 'bbb');

@@ -18,6 +18,6 @@
         "postcss": "^8.1.14",
         "resolve-url-loader": "^5.0.0",
         "sass": "^1.56.1",
-        "sass-loader": "^5.0.1"
+        "sass-loader": "^12.6.0"
     }
 }

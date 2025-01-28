@@ -992,9 +992,10 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /*!*********************************!*\
   !*** ./resources/sass/app.scss ***!
   \*********************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed: Error: Cannot find module 'node-sass'\nRequire stack:\n- /home/ec2-user/environment/mynews/node_modules/sass-loader/lib/loader.js\n- /home/ec2-user/environment/mynews/node_modules/webpack/lib/ProgressPlugin.js\n- /home/ec2-user/environment/mynews/node_modules/webpack/lib/index.js\n- /home/ec2-user/environment/mynews/node_modules/webpack-cli/lib/webpack-cli.js\n- /home/ec2-user/environment/mynews/node_modules/webpack-cli/lib/bootstrap.js\n- /home/ec2-user/environment/mynews/node_modules/webpack-cli/bin/cli.js\n- /home/ec2-user/environment/mynews/node_modules/webpack/bin/webpack.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:873:27)\n    at Module.require (node:internal/modules/cjs/loader:1100:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (/home/ec2-user/environment/mynews/node_modules/sass-loader/lib/loader.js:3:14)\n    at Module._compile (node:internal/modules/cjs/loader:1198:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)\n    at Module.load (node:internal/modules/cjs/loader:1076:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:911:12)\n    at Module.require (node:internal/modules/cjs/loader:1100:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at /home/ec2-user/environment/mynews/node_modules/webpack/lib/ProgressPlugin.js:497:9\n    at Hook.eval [as call] (eval at create (/home/ec2-user/environment/mynews/node_modules/tapable/lib/HookCodeFactory.js:19:10), <anonymous>:7:1)\n    at NormalModule._doBuild (/home/ec2-user/environment/mynews/node_modules/webpack/lib/NormalModule.js:950:24)\n    at NormalModule.build (/home/ec2-user/environment/mynews/node_modules/webpack/lib/NormalModule.js:1155:15)\n    at /home/ec2-user/environment/mynews/node_modules/webpack/lib/Compilation.js:1422:12\n    at NormalModule.needBuild (/home/ec2-user/environment/mynews/node_modules/webpack/lib/NormalModule.js:1477:32)\n    at Compilation._buildModule (/home/ec2-user/environment/mynews/node_modules/webpack/lib/Compilation.js:1403:10)\n    at /home/ec2-user/environment/mynews/node_modules/webpack/lib/util/AsyncQueue.js:340:10\n    at Hook.eval [as callAsync] (eval at create (/home/ec2-user/environment/mynews/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at AsyncQueue._startProcessing (/home/ec2-user/environment/mynews/node_modules/webpack/lib/util/AsyncQueue.js:330:26)\n    at AsyncQueue._ensureProcessing (/home/ec2-user/environment/mynews/node_modules/webpack/lib/util/AsyncQueue.js:317:12)\n    at processImmediate (node:internal/timers:466:21)");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvc2Fzcy9hcHAuc2NzcyIsIm1hcHBpbmdzIjoiO0FBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvc2Fzcy9hcHAuc2Nzcz9hODBiIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpblxuZXhwb3J0IHt9OyJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/sass/app.scss\n");
 
 /***/ }),
 
@@ -1002,9 +1003,10 @@ throw new Error("Module build failed: Error: Cannot find module 'node-sass'\nReq
 /*!***********************************!*\
   !*** ./resources/sass/admin.scss ***!
   \***********************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/lib/loader.js):\nError: Cannot find module 'node-sass'\nRequire stack:\n- /home/ec2-user/environment/mynews/node_modules/sass-loader/lib/loader.js\n- /home/ec2-user/environment/mynews/node_modules/loader-runner/lib/loadLoader.js\n- /home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js\n- /home/ec2-user/environment/mynews/node_modules/webpack/lib/NormalModuleFactory.js\n- /home/ec2-user/environment/mynews/node_modules/webpack/lib/Compiler.js\n- /home/ec2-user/environment/mynews/node_modules/webpack/lib/ProgressPlugin.js\n- /home/ec2-user/environment/mynews/node_modules/webpack/lib/index.js\n- /home/ec2-user/environment/mynews/node_modules/webpack-cli/lib/webpack-cli.js\n- /home/ec2-user/environment/mynews/node_modules/webpack-cli/lib/bootstrap.js\n- /home/ec2-user/environment/mynews/node_modules/webpack-cli/bin/cli.js\n- /home/ec2-user/environment/mynews/node_modules/webpack/bin/webpack.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:873:27)\n    at Module.require (node:internal/modules/cjs/loader:1100:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (/home/ec2-user/environment/mynews/node_modules/sass-loader/lib/loader.js:3:14)\n    at Module._compile (node:internal/modules/cjs/loader:1198:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)\n    at Module.load (node:internal/modules/cjs/loader:1076:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:911:12)\n    at Module.require (node:internal/modules/cjs/loader:1100:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at loadLoader (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/loadLoader.js:19:17)\n    at iteratePitchingLoaders (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:182:2)\n    at iteratePitchingLoaders (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:178:10)\n    at /home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:189:18\n    at handleResult (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/loadLoader.js:53:2)\n    at loadLoader (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/loadLoader.js:35:10)\n    at iteratePitchingLoaders (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:182:2)\n    at iteratePitchingLoaders (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:178:10)\n    at /home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:189:18\n    at handleResult (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/loadLoader.js:53:2)\n    at loadLoader (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/loadLoader.js:35:10)\n    at iteratePitchingLoaders (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:182:2)\n    at iteratePitchingLoaders (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:178:10)\n    at /home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:189:18\n    at handleResult (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/loadLoader.js:53:2)\n    at loadLoader (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/loadLoader.js:35:10)\n    at iteratePitchingLoaders (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:182:2)\n    at runLoaders (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:398:2)\n    at NormalModule._doBuild (/home/ec2-user/environment/mynews/node_modules/webpack/lib/NormalModule.js:965:3)\n    at NormalModule.build (/home/ec2-user/environment/mynews/node_modules/webpack/lib/NormalModule.js:1155:15)\n    at /home/ec2-user/environment/mynews/node_modules/webpack/lib/Compilation.js:1422:12\n    at NormalModule.needBuild (/home/ec2-user/environment/mynews/node_modules/webpack/lib/NormalModule.js:1477:32)\n    at Compilation._buildModule (/home/ec2-user/environment/mynews/node_modules/webpack/lib/Compilation.js:1403:10)\n    at /home/ec2-user/environment/mynews/node_modules/webpack/lib/util/AsyncQueue.js:340:10\n    at Hook.eval [as callAsync] (eval at create (/home/ec2-user/environment/mynews/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/ec2-user/environment/mynews/node_modules/tapable/lib/Hook.js:18:14)\n    at AsyncQueue._startProcessing (/home/ec2-user/environment/mynews/node_modules/webpack/lib/util/AsyncQueue.js:330:26)\n    at AsyncQueue._ensureProcessing (/home/ec2-user/environment/mynews/node_modules/webpack/lib/util/AsyncQueue.js:317:12)\n    at processImmediate (node:internal/timers:466:21)\n    at processResult (/home/ec2-user/environment/mynews/node_modules/webpack/lib/NormalModule.js:891:19)\n    at /home/ec2-user/environment/mynews/node_modules/webpack/lib/NormalModule.js:1037:5\n    at /home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:400:11\n    at /home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:185:11\n    at loadLoader (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/loadLoader.js:33:11)\n    at iteratePitchingLoaders (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:182:2)\n    at iteratePitchingLoaders (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:178:10)\n    at /home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:189:18\n    at handleResult (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/loadLoader.js:53:2)\n    at loadLoader (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/loadLoader.js:35:10)\n    at iteratePitchingLoaders (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:182:2)\n    at iteratePitchingLoaders (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:178:10)\n    at /home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:189:18\n    at handleResult (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/loadLoader.js:53:2)\n    at loadLoader (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/loadLoader.js:35:10)\n    at iteratePitchingLoaders (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:182:2)\n    at iteratePitchingLoaders (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:178:10)\n    at /home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:189:18\n    at handleResult (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/loadLoader.js:53:2)\n    at loadLoader (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/loadLoader.js:35:10)\n    at iteratePitchingLoaders (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:182:2)\n    at runLoaders (/home/ec2-user/environment/mynews/node_modules/loader-runner/lib/LoaderRunner.js:398:2)\n    at NormalModule._doBuild (/home/ec2-user/environment/mynews/node_modules/webpack/lib/NormalModule.js:965:3)\n    at NormalModule.build (/home/ec2-user/environment/mynews/node_modules/webpack/lib/NormalModule.js:1155:15)\n    at /home/ec2-user/environment/mynews/node_modules/webpack/lib/Compilation.js:1422:12\n    at NormalModule.needBuild (/home/ec2-user/environment/mynews/node_modules/webpack/lib/NormalModule.js:1477:32)\n    at Compilation._buildModule (/home/ec2-user/environment/mynews/node_modules/webpack/lib/Compilation.js:1403:10)\n    at /home/ec2-user/environment/mynews/node_modules/webpack/lib/util/AsyncQueue.js:340:10\n    at Hook.eval [as callAsync] (eval at create (/home/ec2-user/environment/mynews/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/ec2-user/environment/mynews/node_modules/tapable/lib/Hook.js:18:14)\n    at AsyncQueue._startProcessing (/home/ec2-user/environment/mynews/node_modules/webpack/lib/util/AsyncQueue.js:330:26)\n    at AsyncQueue._ensureProcessing (/home/ec2-user/environment/mynews/node_modules/webpack/lib/util/AsyncQueue.js:317:12)\n    at processImmediate (node:internal/timers:466:21)");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvc2Fzcy9hZG1pbi5zY3NzIiwibWFwcGluZ3MiOiI7QUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3Jlc291cmNlcy9zYXNzL2FkbWluLnNjc3M/NjA2ZiJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW5cbmV4cG9ydCB7fTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/sass/admin.scss\n");
 
 /***/ }),
 
@@ -1044,7 +1046,42 @@ eval("// shim for using process in browser\nvar process = module.exports = {};\n
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/chunk loaded */
+/******/ 	(() => {
+/******/ 		var deferred = [];
+/******/ 		__webpack_require__.O = (result, chunkIds, fn, priority) => {
+/******/ 			if(chunkIds) {
+/******/ 				priority = priority || 0;
+/******/ 				for(var i = deferred.length; i > 0 && deferred[i - 1][2] > priority; i--) deferred[i] = deferred[i - 1];
+/******/ 				deferred[i] = [chunkIds, fn, priority];
+/******/ 				return;
+/******/ 			}
+/******/ 			var notFulfilled = Infinity;
+/******/ 			for (var i = 0; i < deferred.length; i++) {
+/******/ 				var [chunkIds, fn, priority] = deferred[i];
+/******/ 				var fulfilled = true;
+/******/ 				for (var j = 0; j < chunkIds.length; j++) {
+/******/ 					if ((priority & 1 === 0 || notFulfilled >= priority) && Object.keys(__webpack_require__.O).every((key) => (__webpack_require__.O[key](chunkIds[j])))) {
+/******/ 						chunkIds.splice(j--, 1);
+/******/ 					} else {
+/******/ 						fulfilled = false;
+/******/ 						if(priority < notFulfilled) notFulfilled = priority;
+/******/ 					}
+/******/ 				}
+/******/ 				if(fulfilled) {
+/******/ 					deferred.splice(i--, 1)
+/******/ 					var r = fn();
+/******/ 					if (r !== undefined) result = r;
+/******/ 				}
+/******/ 			}
+/******/ 			return result;
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
 /******/ 		// getDefaultExport function for compatibility with non-harmony modules
@@ -1085,14 +1122,70 @@ eval("// shim for using process in browser\nvar process = module.exports = {};\n
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		// no baseURI
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"/js/app": 0,
+/******/ 			"css/app": 0,
+/******/ 			"css/admin": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		__webpack_require__.O.j = (chunkId) => (installedChunks[chunkId] === 0);
+/******/ 		
+/******/ 		// install a JSONP callback for chunk loading
+/******/ 		var webpackJsonpCallback = (parentChunkLoadingFunction, data) => {
+/******/ 			var [chunkIds, moreModules, runtime] = data;
+/******/ 			// add "moreModules" to the modules object,
+/******/ 			// then flag all "chunkIds" as loaded and fire callback
+/******/ 			var moduleId, chunkId, i = 0;
+/******/ 			if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
+/******/ 				for(moduleId in moreModules) {
+/******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
+/******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
+/******/ 					}
+/******/ 				}
+/******/ 				if(runtime) var result = runtime(__webpack_require__);
+/******/ 			}
+/******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
+/******/ 			for(;i < chunkIds.length; i++) {
+/******/ 				chunkId = chunkIds[i];
+/******/ 				if(__webpack_require__.o(installedChunks, chunkId) && installedChunks[chunkId]) {
+/******/ 					installedChunks[chunkId][0]();
+/******/ 				}
+/******/ 				installedChunks[chunkId] = 0;
+/******/ 			}
+/******/ 			return __webpack_require__.O(result);
+/******/ 		}
+/******/ 		
+/******/ 		var chunkLoadingGlobal = self["webpackChunk"] = self["webpackChunk"] || [];
+/******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
+/******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
+/******/ 	})();
+/******/ 	
 /************************************************************************/
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval-source-map devtool is used.
-/******/ 	__webpack_require__("./resources/js/app.js");
-/******/ 	__webpack_require__("./resources/sass/app.scss");
-/******/ 	var __webpack_exports__ = __webpack_require__("./resources/sass/admin.scss");
+/******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/admin"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/admin"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app","css/admin"], () => (__webpack_require__("./resources/sass/admin.scss")))
+/******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;

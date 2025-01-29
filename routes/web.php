@@ -23,13 +23,11 @@ Route::controller(NewsController::class)->prefix('admin')->name('admin.')->middl
     Route::post('news/create', 'create')->name('news.create');
 });
 
-//課題3【応用】現在はログインしてない状態で /admin/profile/edit にアクセスしたらProfileController の edit Action に割り当てるように設定されています。
-//こちらをログインしていない状態で /admin/profile/edit にアクセスした場合にログイン画面にリダイレクトされるように設定しましょう
-
 use App\Http\Controllers\Admin\ProfileController;
 Route::controller(ProfileController::class)->prefix('admin')->name('admin.')->middleware('auth')->group(function () {
     Route::get('profile/create', 'add')->name('profile.add');
     Route::get('profile/edit', 'edit')->name('profile.edit');
+    //課題3 【応用】 routes/web.php を編集して、 admin/profile/create に POSTメソッドでアクセスしたら ProfileController の create Action に割り当てるように設定してください
     Route::post('profile/create', 'create')->name('profile.create');
 });
 

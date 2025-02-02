@@ -1,20 +1,35 @@
 <?php
-//課題4:【応用】 artisanを使って、Admin/ProfileControllerを作成しましょう（→作成）
+
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
+use App\Models\Profile;
+
 class ProfileController extends Controller
 {
-    //課題5:【応用】 Admin/ProfileControllerに、以下のadd, create, edit, update それぞれのActionを追加してみましょう
+    
     public function add()
     {
         return view('admin.profile.create');
     }
 
-    public function create()
+    public function create(Request $request)
     {
+        //課題7 【応用】フォーム情報をデータベースに保存できるようにしましょう=>以下を追記
+        $this->validate($request, Profile::$rules);
+
+        $profile = new Profile;
+        $form = $request->all();
+
+        // フォームから送信されてきた_tokenを削除する
+        unset($form['_token']);
+
+        // データベースに保存する
+        $profile->fill($form);
+        $profile->save();
+
         return redirect('admin/profile/create');
     }
 

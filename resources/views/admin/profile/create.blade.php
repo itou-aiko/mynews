@@ -6,13 +6,11 @@
         <div class="row">
             <div class="col-md-8 mx-auto">
                 <h2>My プロフィール</h2>
-                <!-- 課題４
-                 プロフィール作成画面用に、resources/views/admin/profile/create.blade.php ファイルを作成し、
-                 3. で作成した profile.blade.phpファイルを読み込み、また プロフィールのページであることがわかるように 
-                 titleとcontentを編集しましょう（ヒント: resources/views/admin/news/create.blade.php を参考にします）
-                -->
+                
                 <form action="{{ route('admin.profile.create') }}" method="post" enctype="multipart/form-data">
 
+                <!-- 課題6 【応用】Validationでエラー表示になるか確認しよう => 以下,確認済み -->
+                
                     @if (count($errors) > 0)
                         <ul>
                             @foreach($errors->all() as $e)

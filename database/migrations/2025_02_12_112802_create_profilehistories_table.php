@@ -13,9 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('histories', function (Blueprint $table) {
+        Schema::create('profilehistories', function (Blueprint $table) {
             $table->id();
-            $table->bigInteger('news_id');
+            $table->bigInteger('profile_id');
             $table->string('edited_at');
             $table->timestamps();
         });
@@ -28,8 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('histories');
-        //課題にて以下追記
-        Schema::dropIfExists('profileHistories');
-    }
+        Schema::dropIfExists('profilehistories');
+    } 
 };
